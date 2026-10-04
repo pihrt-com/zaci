@@ -1,0 +1,69 @@
+2025-12-27 14:57:15,640 | INFO | Arduino polling thread started
+2025-12-27 14:57:15,654 | INFO | Arduino detected on COM12 (Arduino Mega 2560 (COM12) )
+2025-12-27 14:57:15,767 | INFO | ---- /status called ----
+2025-12-27 14:57:16,266 | INFO | ---- /status called ----
+2025-12-27 14:57:18,361 | INFO | ---- /status called ----
+2025-12-27 14:57:18,529 | INFO | ---- /status called ----
+2025-12-27 14:57:19,712 | INFO | Arduino detected on COM12 (Arduino Mega 2560 (COM12) )
+2025-12-27 14:57:20,415 | INFO | ---- /status called ----
+2025-12-27 14:57:20,530 | INFO | ---- /status called ----
+2025-12-27 14:57:22,425 | INFO | ---- /status called ----
+2025-12-27 14:57:22,531 | INFO | ---- /status called ----
+2025-12-27 14:57:23,769 | INFO | Arduino detected on COM12 (Arduino Mega 2560 (COM12) )
+2025-12-27 14:57:24,435 | INFO | ---- /status called ----
+2025-12-27 14:57:24,531 | INFO | ---- /status called ----
+2025-12-27 14:57:26,527 | INFO | ---- /status called ----
+2025-12-27 14:57:26,531 | INFO | ---- /status called ----
+2025-12-27 14:57:27,821 | INFO | Arduino detected on COM12 (Arduino Mega 2560 (COM12) )
+2025-12-27 14:57:28,530 | INFO | ---- /status called ----
+2025-12-27 14:57:28,545 | INFO | ---- /status called ----
+2025-12-27 14:57:30,530 | INFO | ---- /status called ----
+2025-12-27 14:57:30,565 | INFO | ---- /status called ----
+2025-12-27 14:57:31,870 | INFO | Arduino detected on COM12 (Arduino Mega 2560 (COM12) )
+2025-12-27 14:57:32,532 | INFO | ---- /status called ----
+2025-12-27 14:57:32,584 | INFO | ---- /status called ----
+2025-12-27 14:57:34,533 | INFO | ---- /status called ----
+2025-12-27 14:57:34,593 | INFO | ---- /status called ----
+2025-12-27 14:57:35,928 | INFO | Arduino detected on COM12 (Arduino Mega 2560 (COM12) )
+2025-12-27 14:57:36,531 | INFO | ---- /status called ----
+2025-12-27 14:57:36,603 | INFO | ---- /status called ----
+2025-12-27 14:57:38,657 | INFO | ---- /status called ----
+2025-12-27 15:57:06,091 | INFO | Arduino polling thread started
+2025-12-27 15:57:06,104 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:06,588 | INFO | ---- /status called ----
+2025-12-27 15:57:08,147 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:08,590 | INFO | ---- /status called ----
+2025-12-27 15:57:10,158 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:10,589 | INFO | ---- /status called ----
+2025-12-27 15:57:12,176 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:12,589 | INFO | ---- /status called ----
+2025-12-27 15:57:14,196 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:14,589 | INFO | ---- /status called ----
+2025-12-27 15:57:16,213 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:16,588 | INFO | ---- /status called ----
+2025-12-27 15:57:18,232 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:18,588 | INFO | ---- /status called ----
+2025-12-27 15:57:20,250 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:20,591 | INFO | ---- /status called ----
+2025-12-27 15:57:22,268 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:22,591 | INFO | ---- /status called ----
+2025-12-27 15:57:24,287 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:24,587 | INFO | ---- /status called ----
+2025-12-27 15:57:26,305 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:26,588 | INFO | ---- /status called ----
+2025-12-27 15:57:28,323 | WARNING | No Arduino detected on USB
+2025-12-27 15:57:30,335 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:23,511 | INFO | Arduino polling thread started
+2025-12-27 15:59:23,523 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:25,550 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:26,448 | INFO | ---- /status called ----
+2025-12-27 15:59:27,561 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:28,438 | INFO | ---- /status called ----
+2025-12-27 15:59:29,576 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:30,439 | INFO | ---- /status called ----
+2025-12-27 15:59:31,586 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:32,440 | INFO | ---- /status called ----
+2025-12-27 15:59:33,594 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:34,438 | INFO | ---- /status called ----
+2025-12-27 15:59:35,604 | WARNING | No Arduino detected on USB
+2025-12-27 15:59:37,623 | WARNING | No Arduino detected on USB

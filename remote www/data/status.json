@@ -1,0 +1,39 @@
+{
+    "arduino": {
+        "online": true,
+        "last_seen": "2026-10-04 10:03:13"
+    },
+    "boxes": [
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        },
+        {
+            "status": "empty"
+        }
+    ],
+    "generated_at": "2026-10-04T10:03:15+02:00"
+}

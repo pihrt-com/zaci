@@ -1,0 +1,48 @@
+{
+  "arduino": {
+    "online": true,
+    "last_seen": "2025-12-27 16:42:18"
+  },
+  "boxes": [
+    {
+      "name": "JAN NOVÁK",
+      "status": "present",
+      "time": "16:01"
+    },
+    {
+      "name": "PETR SVOBODA",
+      "status": "absent"
+    },
+    {
+      "name": "LUCIE MALÁ",
+      "status": "present",
+      "time": "15:48"
+    },
+    {
+      "status": "holiday"
+    },
+    {
+      "status": "empty"
+    },
+    {
+      "name": "TOMÁŠ DVOŘÁK",
+      "status": "present",
+      "time": "14:12"
+    },
+    {
+      "name": "MARTIN ČERNÝ",
+      "status": "absent"
+    },
+    {
+      "status": "empty"
+    },
+    {
+      "name": "EVA KŘÍŽOVÁ",
+      "status": "present",
+      "time": "15:59"
+    },
+    {
+      "status": "holiday"
+    }
+  ]
+}

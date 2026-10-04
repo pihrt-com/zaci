@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <title>Docházka</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- ===== TOP BAR ===== -->
+  <div id="topbar" class="topbar">
+    <div class="datetime">
+      <span id="date"></span>
+      <span id="time"></span>
+    </div>
+
+    <div class="weekdays">
+      <span id="week-parity" class="parity-indicator"></span>
+      <span data-day="1">PO</span>
+      <span data-day="2">ÚT</span>
+      <span data-day="3">ST</span>
+      <span data-day="4">ČT</span>
+      <span data-day="5">PÁ</span>
+      <span data-day="6">SO</span>
+      <span data-day="7">NE</span>
+    </div>
+  </div>
+
+  <!-- ===== RFID STATUS ===== -->
+  <div id="rfid-status" class="rfid hidden">
+    ⚠️ RFID Čtečka je MIMO PROVOZ! ⚠️
+  </div>
+
+  <!-- ===== DATA STALE STATUS ===== -->
+  <div id="data-status" class="data-error hidden">
+    ⚠️ DATA NEAKTUALIZOVÁNA ⚠️
+  </div>
+
+  <!-- ===== MAIN GRID ===== -->
+  <div class="container" id="container">
+    <!-- boxy generuje JS -->
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
