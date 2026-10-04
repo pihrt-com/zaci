@@ -2,7 +2,5 @@
 
 ## Unreleased
 
-- Prevent stale attendance data by marking the remote JSON response as
-  non-cacheable in `data/.htaccess` and adding a per-request cache-busting
-  parameter in both UI variants.
+- Prevent stale attendance data by adding a per-request cache-busting parameter in both UI variants and documenting the required WEDOS CDN cache exemption for the public JSON.
 - Return explicit non-cacheable headers from the local FastAPI status endpoint.

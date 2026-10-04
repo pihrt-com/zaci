@@ -1,7 +1,0 @@
-<IfModule mod_headers.c>
-    # status.json is overwritten every few seconds; it must never be served
-    # from a browser or intermediary cache.
-    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
-    Header set Pragma "no-cache"
-    Header set Expires 0
-</IfModule>
