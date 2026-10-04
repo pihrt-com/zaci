@@ -48,7 +48,12 @@ async function load() {
   try {
     console.log("Fetching JSON…");
 
-    const r = await fetch(DATA_SOURCE, { cache: "no-store" });
+    // The hosting CDN has previously cached the static file despite fetch's
+    // request directive.  A unique URL makes every poll reach the current
+    // origin representation; update.php also marks the response as no-store.
+    const dataUrl = new URL(DATA_SOURCE);
+    dataUrl.searchParams.set("_", Date.now().toString());
+    const r = await fetch(dataUrl, { cache: "no-store" });
 
     console.log("HTTP status:", r.status);
 

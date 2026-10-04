@@ -5,7 +5,7 @@ from arduino import read_attendance
 from state import update_attendance, attendance_state
 
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from pathlib import Path
 
 from datetime import datetime, timedelta, date
@@ -88,6 +88,14 @@ def build_status_payload():
         },
         "boxes": boxes
     }
+
+
+def no_cache_json(payload):
+    return JSONResponse(payload, headers={
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        "Pragma": "no-cache",
+        "Expires": "0",
+    })
 
 def push_status_to_remote():
     global remote_thread_running
@@ -173,27 +181,7 @@ def serve_frontend():
 @app.get("/status")
 def status():
     logging.info("---- /status called ----")
-
-    boxes = load_boxes_from_excel()
-
-    # denní reset
-    daily_reset_if_needed(boxes)
-
-    with attendance_lock:
-        arduino = attendance_cache
-
-    if arduino is not None:
-        update_attendance(boxes, arduino)
-
-    online, last_seen = get_arduino_status()
-
-    return {
-        "arduino": {
-            "online": online,
-            "last_seen": last_seen.strftime("%Y-%m-%d %H:%M:%S") if last_seen else None
-        },
-        "boxes": boxes
-    }
+    return no_cache_json(build_status_payload())
 
 
 @app.on_event("shutdown")

@@ -29,7 +29,9 @@ const DATA_STALE_LIMIT = 7000; // ms (python do php posila data co 5 vterin)
 
 async function load() {
   try {
-    const r = await fetch(DATA_SOURCE, { cache: "no-store" });
+    const dataUrl = new URL(DATA_SOURCE, window.location.href);
+    dataUrl.searchParams.set("_", Date.now().toString());
+    const r = await fetch(dataUrl, { cache: "no-store" });
     if (!r.ok) {
       throw new Error(`HTTP ${r.status}`);
     }

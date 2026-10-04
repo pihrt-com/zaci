@@ -29,3 +29,17 @@ Pá	…	…
 
 prázdná buňka → empty
 speciální text „SVÁTEK“ (nebo celý den) → holiday
+
+## Živá data a cache
+
+Veřejné UI načítá `https://zaci.pihrt.com/data/status.json` každé 2 sekundy.
+Každý požadavek obsahuje jedinečný parametr `_`, aby CDN nebo prohlížeč
+nepoužily předchozí odpověď. Soubor `data/.htaccess` nastavuje na samotný
+`status.json` hlavičky `Cache-Control: no-store`, `Pragma: no-cache` a
+`Expires: 0`.
+
+V administraci WEDOS Global Protection je vhodné zároveň přidat CDN cache
+výjimku pro `/data/status.json` a po nasazení provést purge cache.
+
+Pokud se v UI zobrazí upozornění „DATA NEAKTUALIZOVÁNA“, zkontrolujte nejdříve
+hodnotu `generated_at` v JSONu a odpovědní HTTP hlavičky na veřejné adrese.
